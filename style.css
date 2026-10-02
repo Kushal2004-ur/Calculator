@@ -1,0 +1,76 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button {
+  border-radius: 50%;
+  border: none;
+  width: 80px;
+  height: 80px;
+  font-size: 2.5rem;
+  color: white;
+  background-color: hsl(0, 0%, 30%);
+  text-align: center;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans";
+  cursor: pointer;
+}
+#keys {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+#calculator {
+  width: 350px;
+  background-color: hsl(0, 0%, 10%);
+  padding: 20px;
+  border-radius: 15px;
+}
+#display {
+  box-sizing: border-box;
+  padding: 10px 15px;
+  width: 100%;
+  height: 110px;
+  font-size: 3rem;
+  color: white;
+  background-color: hsl(0, 0%, 30%);
+  border: none;
+  border-radius: 10px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans";
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.operator-btn {
+  background-color: hsl(39, 100%, 50%);
+}
+.firstrow-btn {
+  background-color: hsl(0, 0%, 60%);
+}
+
+.operator-btn:hover {
+  background-color: hsl(39, 100%, 60%);
+}
+.operator-btn:active {
+  background-color: hsl(39, 100%, 70%);
+}
+
+.firstrow-btn:hover {
+  background-color: hsl(0, 0%, 70%);
+}
+.firstrow-btn:active {
+  background-color: hsl(0, 0%, 80%);
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 40%);
+}
+button:active {
+  background-color: hsl(0, 0%, 50%);
+}
